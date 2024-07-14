@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minimalist Resume</title>
+    <title>Kartik Shinde - A Level 10 Web Developer</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #000;
+            color: #0f0;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
         }
         .container {
             width: 80%;
             margin: 0 auto;
             padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #111;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+            border: 2px solid #0f0;
         }
         .header {
             text-align: center;
@@ -26,19 +27,21 @@
         .header h1 {
             margin: 0;
             font-size: 2.5em;
+            color: #ff0;
         }
         .header p {
             margin: 5px 0;
-            color: #777;
+            color: #0f0;
         }
         .section {
             margin-bottom: 20px;
         }
         .section h2 {
             margin-bottom: 10px;
-            border-bottom: 2px solid #ddd;
+            border-bottom: 2px solid #0f0;
             padding-bottom: 5px;
             font-size: 1.5em;
+            color: #ff0;
         }
         .section ul {
             list-style: none;
@@ -47,84 +50,146 @@
         .section li {
             margin-bottom: 10px;
         }
+        .section .text {
+            display: inline-block;
+        }
         .section .item-title {
             font-weight: bold;
         }
         .section .item-subtitle {
-            color: #777;
+            color: #0f0;
         }
         .section .item-description {
             margin: 5px 0 0 0;
         }
+        .section .sub-Text {
+            font-size: small;
+            float: right;
+        }
         .footer {
             text-align: center;
             padding: 10px 0;
-            background-color: #333;
+            background-color: #111;
             color: #fff;
         }
         .footer a {
-            color: #fff;
+            color: #0f0;
             text-decoration: none;
+        }
+        .status-bar {
+            background-color: #111;
+            padding: 10px;
+            color: #ff0;
+            text-align: right;
+            font-size: 1.2em;
         }
     </style>
 </head>
 <body>
+    <div class="status-bar">
+        <span>HP: 100 | MP: 430 | EXP: 3540</span>
+    </div>
     <div class="container">
         <div class="header">
-            <h1>Your Name</h1>
-            <p>Your Profession</p>
-            <p>Location | Email | Phone</p>
+            <h1>Kartik Shinde</h1>
+            <h1>The MERN Sorcerer In Making</h1>
+            <p>A Level 10 Web Developer</p>
+            <p>Location: Pune | Email: <a>akartikshinded@gmail.com</a> | Phone: +91 78209 42959</p>
         </div>
         
-        <div class="section">
-            <h2>Experience</h2>
-            <ul>
-                <li>
-                    <p class="item-title">Job Title at Company Name</p>
-                    <p class="item-subtitle">Location | Dates</p>
-                    <p class="item-description">Brief description of your role and achievements.</p>
-                </li>
-                <li>
-                    <p class="item-title">Job Title at Company Name</p>
-                    <p class="item-subtitle">Location | Dates</p>
-                    <p class="item-description">Brief description of your role and achievements.</p>
-                </li>
-                <!-- Add more job experiences as needed -->
-            </ul>
-        </div>
-
         <div class="section">
             <h2>Education</h2>
             <ul>
                 <li>
-                    <p class="item-title">Degree at University Name</p>
-                    <p class="item-subtitle">Location | Dates</p>
-                    <p class="item-description">Brief description of your studies and achievements.</p>
+                    <p class="item-title">Ongoing Bachelor's Degree in Computer Engineering from VIIT Pune <span class="sub-Text">(MP +100)(Exp +1500)</span></p>
+                    <p class="item-subtitle">Location: Pune | Dates: 2023 - 2027</p>
+                    <p class="item-description">Learning the secrets of computer programming sorcery to be able to remove my grandma's phone from silent</p>
                 </li>
-                <!-- Add more education entries as needed -->
+                <br>
+                <li>
+                    <p class="item-title">Certification : Infosys - Introduction to Python <span class="sub-Text">(MP +20)(Exp +100)</span></p>
+                    <p class="item-subtitle">Type : Online | date : 28th March, 2024</p>
+                    <p class="item-description">An online introductory course on Python, where I learned all the fundamental sorceries in it.</p>
+                    <p></p>
+                    <a href="/Assets/Infosys_Python_Certificate.pdf" target="_blank">Certificate Link</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="section">
+            <h2>Equipped Skills</h2>
+            <ul>
+                <li>
+                    <span class="text">Spells and Encantations of JavaScript</span>
+                    <span class="sub-Text">(MP +20)(Exp +80)</span>
+                </li>
+                <li>
+                    <span class="text">Fulfilling everyone's requests with NodeJS</span>
+                    <span class="sub-Text">(MP +40)(Exp +100)</span>
+                </li>
+                <li>
+                    <span class="text">Store your Items with MongoDB</span>
+                    <span class="sub-Text">(MP +30)(Exp +90)</span>
+                </li>
+                <li>
+                    <span class="text">Completing the Circle with ExpressJS</span>
+                    <span class="sub-Text">(MP +30)(Exp +90)</span>
+                </li>
+                <li></li>
             </ul>
         </div>
 
         <div class="section">
-            <h2>Skills</h2>
+            <h2>Experience & Projects</h2>
             <ul>
-                <li>Skill 1</li>
-                <li>Skill 2</li>
-                <li>Skill 3</li>
-                <!-- Add more skills as needed -->
+                <li>
+                    <p class="item-title">Project : CodeoQuest - Gamify your boring langauge learning experience <span class="sub-Text">(MP +100)(Exp +1000)</span></p>
+                    <p class="item-subtitle">Completed in 7 days | A squad of four warriors | squad Name : Syntax Errors Inc.</p>
+                    <p class="item-description">A website which included games, video lessons and doubt forum for learning new programming languages.</p>
+                    <p></p>
+                    <p class="item-description">Successfully led the team as a TeamLeader. Managed the complete backend and also contributed to frontend.</p>
+                    <p></p>
+                    <p>Link : <a href="#" target="_blank">xyz.com</a></p>
+                </li>
+                <br>
+                <li>
+                    <p class="item-title">Hackathon : Winner of ESOT'24 <span class="sub-Text">(MP +20)(Exp +200)</span></p>
+                    <p class="item-subtitle">Type : Online | Squad Name : Ctrl+Alt+Del(now Syntax Errors inc.)</p>
+                    <p class="item-description">Won the first place at ESOT'24 hackthon in the EdTech domain, with the above project</p>
+                    <p></p>
+                    <a href="/Assets/ESOT'24-Certificate.jpg" target="_blank">Certificate Link</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Other Skills Inventory</h2>
+            <ul>
+                <li>
+                    <span class="text">Flutter Novice</span>
+                    <span class="sub-Text">(MP +5)(Exp +30)</span>
+                </li>
+                <li>
+                    <span class="text">OOP languages - Python & Java</span>
+                    <span class="sub-Text">(MP +15)(Exp +50)</span>
+                </li>
+                <li>
+                    <span class="text">Polylingual - English, Hindi, Marathi, Japanese</span>
+                    <span class="sub-Text">(MP +50)(Exp +300)</span>
+                </li>
             </ul>
         </div>
 
         <div class="section">
             <h2>Contact</h2>
-            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-            <p>Phone: (123) 456-7890</p>
-            <!-- Add more contact information if needed -->
+            <p>Email: <a>akartikshinded@gmail.com</a></p>
+            <p>Phone: +91 78209 42959</p>
         </div>
     </div>
 
     <div class="footer">
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2024 Kartik Shinde. All rights reserved. | <a href="https://www.linkedin.com/in/kartik-shinde-6b98701a6/" target="_blank">LinkedIn</a> | <a href="https://github.com/HalianCage" target="_blank">GitHub</a></p>
     </div>
 </body>
 </html>
